@@ -1,0 +1,54 @@
+{
+  "name": "demo-shared-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@smart-link/app-info": "^0.4.0",
+    "@smart-link/auto-config": "^0.4.0",
+    "@smart-link/context": "^0.4.0",
+    "@smart-link/core": "^0.4.1",
+    "axios": "^0.21.1",
+    "axios-mock-adapter": "^1.19.0",
+    "clsx": "^1.1.1",
+    "connected-react-router": "^6.9.1",
+    "immutability-helper": "^3.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^6.15.4",
+    "react-i18next": "^11.8.8",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-window": "^1.8.6",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@smart-link/scripts": "^0.4.0",
+    "serve": "11.3.2"
+  },
+  "scripts": {
+    "start": "smart-link-scripts start",
+    "build": "smart-link-scripts build",
+    "serve": "serve build -c ../serve.json -p 3001",
+    "link-core": "yarn link @smart-link/core @smart-link/context"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
