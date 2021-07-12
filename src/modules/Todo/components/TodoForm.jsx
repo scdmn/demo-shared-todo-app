@@ -55,7 +55,6 @@ const TodoForm = memo(props => {
                                         required: {value: true, message: '需要填写标题！'},
                                         maxLength: 64,
                                     })}
-                                    clearable
                                 />
                                 {errors.title ? (
                                     <FormHelperText className="pl-0">{errors.title.message}</FormHelperText>
